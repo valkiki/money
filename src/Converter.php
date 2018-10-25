@@ -51,4 +51,9 @@ final class Converter
 
         return new Money($counterValue->getAmount(), $counterCurrency);
     }
+    
+    public function ping() : void
+    {
+        echo 'Hellow world';
+    }
 }
